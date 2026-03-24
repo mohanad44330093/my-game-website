@@ -1,0 +1,161 @@
+/* Main Design */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #0a0c12;
+    font-family: 'Segoe UI', 'Tahoma', 'Cairo', system-ui, -apple-system, 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    background-image: 
+        radial-gradient(circle at 25% 20%, rgba(30, 100, 150, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 85% 70%, rgba(100, 70, 180, 0.06) 0%, transparent 55%),
+        repeating-linear-gradient(45deg, rgba(255,255,255,0.01) 0px, rgba(255,255,255,0.01) 1px, transparent 1px, transparent 12px);
+}
+
+.container_1M {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container_1M header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
+    border-bottom: solid rgba(99, 70, 180, 0.514) 1px;
+    position: absolute;
+    background: #0a0c12;
+    background-image: 
+        radial-gradient(circle at 25% 20%, rgba(30, 100, 150, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 85% 70%, rgba(100, 70, 180, 0.06) 0%, transparent 55%),
+        repeating-linear-gradient(45deg, rgba(255,255,255,0.01) 0px, rgba(255,255,255,0.01) 1px, transparent 1px, transparent 12px);
+        flex-direction: column;
+    }
+
+.container_1M header img {
+    width: 90px;
+}
+
+.container_1M header h2 {
+    color: rgba(30, 100, 150, 0.616);
+}
+
+.container_1M header .logo_1M {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.container_1M header .hearer_Btn_1M {
+    padding: 0 2%;
+}
+
+.container_1M header .hearer_Btn_1M button {
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(30, 100, 150, 0.616);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container_1M header .hearer_Btn_1M button:hover {
+    border-radius: 0;
+    background-color: rgba(99, 70, 180, 0.514);
+}
+
+.container_1M .Details_1M {
+    padding: 35px;
+    text-align: right;
+    font-size: 20px;
+    color: rgba(30, 100, 150, 0.616);
+    padding-bottom: 50px;
+}
+
+ul {
+    margin-right: 25px;
+}
+
+ul span {
+    font-size: 11px;
+}
+
+ul .target {
+    margin-right: 35px;
+}
+
+ul li {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Downlaod_Btns {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.Downlaod_Btns button, .web-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(30, 100, 150, 0.616);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 50px;
+    width: 500px;
+}
+
+.web-btn {
+    width: 95%;
+}
+
+.Downlaod_Btns button:hover, .web-btn:hover  {
+    border-radius: 0;
+    background-color: rgba(99, 70, 180, 0.514);
+}
+
+.container_1M  .hearer_Btn_1M {
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+
+
+@media (max-width:635px) {
+    ul {
+        margin-right: -25px;
+    }
+
+    .container_1M header h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    ul li {
+        font-size: 25px;
+    }
+}
+
+/* 🌟 This Code Writed By Mohanad 🌟 */
